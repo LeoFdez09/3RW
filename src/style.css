@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
 
 * {
@@ -94,5 +94,93 @@ nav .ul .a  {
 }
 
 .viewport .img .text-content p {
+    color: #fff;
+}
+
+.resena {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.resena-content {
+    width: 80%;
+    display: flex;
+    background: #c4c4c4;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.resena .cara img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.resena .resena-content .text-area {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.resena .resena-content .text-area .stars {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.resena .resena-content .text-area .stars i {
+    color: #fffb00;
+}
+
+.resena .resena-content .text-area .message {
+    margin-top: 10px;
+
+}
+
+.resena .resena-content .text-area .message p {
+}
+
+.resena .resena-content .text-area .name h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+/* ------------------------------ */
+
+.ads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 20px 0;
+    grid-gap: 10px;
+}
+
+.ads article {
+    background: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ads article p {
+    color: #fff;
+}
+
+.ads article .title {
+    width: 100%;
+    text-align: center;
+}
+
+.ads article .title h2 {
     color: #fff;
 }
